@@ -1,0 +1,23 @@
+{
+  "name": "workshop4",
+  "version": "1.0.0",
+  "description": "Work for Workshop4",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mery9/Workshop4.git"
+  },
+  "author": "Mr.Kantinan Boonyingsathit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mery9/Workshop4/issues"
+  },
+  "homepage": "https://github.com/mery9/Workshop4#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
