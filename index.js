@@ -10,8 +10,12 @@ app.get('/about', (req, res) => {
     res.send('Hello from About Page')
 })
 
+app.get('/mainpage', (req, res) => {
+    res.sendFile(__dirname + '/html/Website.html')
+})
+
 app.get('*', (req, res) => {
-    res.send('404 Page Not Found')
+    res.sendFile(__dirname + '/html/404 Not found.html')
 })
 
 app.listen(3000, () => {
