@@ -9,6 +9,11 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
     res.send('Hello from About Page')
 })
+
+app.get('*', (req, res) => {
+    res.send('404 Page Not Found')
+})
+
 app.listen(3000, () => {
     console.log("Starting Server at Port [3000]")
 })
