@@ -2,6 +2,9 @@
 const express = require('express')
 const app = express()
 
+app.use(express.static('public')); 
+app.use('/images', express.static('images'))
+
 app.get('/', (req, res) => {
     res.send("Hi, I'm Sheshhhhhhhh")
 })
